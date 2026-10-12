@@ -6,6 +6,10 @@ theorems in `main.conjectures.analysis.c01.complete.md`. The remaining 24
 original statements are unresolved; no novelty clearance is claimed.**
 
 The 2026-10-12 review notebook is `main.conjectures.analysis.notes.current.md`.
+Version 0.2.0 adds the scoped C15 proof in
+`main.conjectures.analysis.c15.subset.complete.md` and deterministic,
+source-bound numerical checks in `docs/c15-checks.json`. The full C15 statement
+and all original statement fingerprints remain unchanged.
 New C16-C17/C24 experiments and exact projection verification are recorded
 in `main.conjectures.analysis.observations.json` and
 `main.conjectures.analysis.verification.json`. They do not prove their

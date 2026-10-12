@@ -12,6 +12,21 @@ This notebook starts with **25 candidate statements generated with GitHub Copilo
 
 [Explore the atlas](docs/atlas/README.md) · [Read the research notebook](main.conjectures.analysis.notes.current.md) · [Browse exact statements](main.conjectures.index.current.md) · [Contribute](CONTRIBUTING.md)
 
+## New in 0.2.0: a proved C15 subset
+
+[**Read the public paper: inference, prediction, and their limits**](main.conjectures.analysis.c15.subset.complete.md).
+With complete observations, centered context effects cancel exactly: we prove
+the simultaneous Gaussian error law and its Gumbel limit. A separate oracle
+benchmark handles missing observations when the nuisance matrix is known.
+
+![Exact C15 Gaussian maximum curves and the uncertainty cost of searching more candidates](assets/c15-subset.png)
+
+The paper also derives a model-based rule requiring **both positive expected
+return after costs and a bounded probability of endpoint loss**. Its future-mean
+and tail assumptions are explicit. This is a standard mathematical consequence,
+not evidence of an investment forecasting advantage. Full C15 remains unresolved.
+[Changes](CHANGELOG.md) · [Numerical checks](docs/c15-checks.json).
+
 ## What is actually known?
 
 | As of 12 October 2026 | Count | Meaning |
@@ -130,11 +145,16 @@ python -c "from pathlib import Path; Path('work').mkdir(exist_ok=True)"
 # Check recorded input fingerprints and an exact rational projection identity.
 python tools/verify_evidence.py
 
+# Verify the C15 subset formulas, boundary cases, and source-bound record.
+python -m unittest discover -s tests -v
+python tools/check_c15.py --verify docs/c15-checks.json
+
 # Run the original bounded sanity checks across all 25 statements.
 python main.conjectures.sanity.py --output work/checks.json
 
 # Rebuild every visual and illustrated introduction.
 python tools/build_atlas.py
+python tools/build_c15_figure.py
 python tools/check_publication.py
 
 # Longer: reproduce the sumset and actual planar-order experiments.
@@ -154,6 +174,7 @@ The atlas uses seeded, explicitly labeled toy constructions, analytic curves, an
 | [Notebook](main.conjectures.analysis.notes.current.md) | Findings, primary-literature comparisons, categories, and next checks |
 | [Evidence ledger](main.conjectures.evidence.current.md) | What the computations actually check |
 | [C01 proof](main.conjectures.analysis.c01.complete.md) | Complete reduction to known theorems |
+| [C15 subset paper](main.conjectures.analysis.c15.subset.complete.md) | Exact fully observed result; conditional decision bounds; prediction limits |
 | [Discovery lane](main.conjectures.discovery.current.md) | N01–N02, clearly separated from the original collection |
 | [Contribution guide](CONTRIBUTING.md) | How to submit a proof, counterexample, reference, or experiment |
 

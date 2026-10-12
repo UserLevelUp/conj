@@ -1,0 +1,170 @@
+{
+  "trace_id": "main.conjectures.analysis.c15.checks",
+  "method": "Deterministic analytic formulas; no random samples or market data",
+  "command": "python tools/check_c15.py --output docs/c15-checks.json",
+  "python": "3.14.6",
+  "source_sha256": {
+    "main.conjectures.c15.education-attention-alignment.current.md": "1b1ac8175dc1d3c2406ea1b7687fa4970d8025e50c2d347d5c1ffbc8d4fc537c",
+    "main.conjectures.analysis.c15.subset.complete.md": "e2c3b83842bfea3ef39b34a09e4c0e2ba2aee75b09f60e602c9d95b2c247d23f",
+    "tools/c15_bounds.py": "88382000dde1e95546bbed9d5f3e7635b34b60d982b8c73f87ebd76f89562e0d",
+    "tools/check_c15.py": "aa84c67b04ce0e43be2a99bc70d3b24599e5673481e3f083c7d47e03feaab0c4",
+    "tests/test_c15_bounds.py": "caf12e344aa56d133afc4ea0e7278638bcc56446368b66ccfbd5f4849d7f85bf",
+    "tools/build_c15_figure.py": "7614cca57f3a622cef525413a8fe7939a89529aca013d02c3669ae3a59621d3f"
+  },
+  "observations": {
+    "exact_coverage": [
+      {
+        "n": 1,
+        "alpha": 0.05,
+        "quantile": 1.9599639845400538,
+        "coverage": 0.95
+      },
+      {
+        "n": 10,
+        "alpha": 0.05,
+        "quantile": 2.799625219301096,
+        "coverage": 0.95
+      },
+      {
+        "n": 100,
+        "alpha": 0.05,
+        "quantile": 3.4739788691540476,
+        "coverage": 0.9499999999999997
+      },
+      {
+        "n": 10000,
+        "alpha": 0.05,
+        "quantile": 4.559427900832913,
+        "coverage": 0.9499999999999996
+      },
+      {
+        "n": 1000000000000,
+        "alpha": 0.05,
+        "quantile": 7.528584563514466,
+        "coverage": 0.9499999999999996
+      }
+    ],
+    "gumbel_comparisons": [
+      {
+        "n": 10,
+        "x": -1,
+        "exact": 0.11532942732109557,
+        "limit": 0.06598803584531254,
+        "difference": 0.04934139147578302
+      },
+      {
+        "n": 10,
+        "x": 0,
+        "exact": 0.39852322698590326,
+        "limit": 0.36787944117144233,
+        "difference": 0.030643785814460922
+      },
+      {
+        "n": 10,
+        "x": 1,
+        "exact": 0.70452492894646,
+        "limit": 0.6922006275553464,
+        "difference": 0.012324301391113623
+      },
+      {
+        "n": 10,
+        "x": 2,
+        "exact": 0.8897548216304692,
+        "limit": 0.8734230184931167,
+        "difference": 0.016331803137352496
+      },
+      {
+        "n": 100,
+        "x": -1,
+        "exact": 0.11650719900433325,
+        "limit": 0.06598803584531254,
+        "difference": 0.050519163159020705
+      },
+      {
+        "n": 100,
+        "x": 0,
+        "exact": 0.40311425962725106,
+        "limit": 0.36787944117144233,
+        "difference": 0.035234818455808725
+      },
+      {
+        "n": 100,
+        "x": 1,
+        "exact": 0.7023042907223679,
+        "limit": 0.6922006275553464,
+        "difference": 0.010103663167021493
+      },
+      {
+        "n": 100,
+        "x": 2,
+        "exact": 0.8814800800747755,
+        "limit": 0.8734230184931167,
+        "difference": 0.008057061581658864
+      },
+      {
+        "n": 10000,
+        "x": -1,
+        "exact": 0.10050295964905545,
+        "limit": 0.06598803584531254,
+        "difference": 0.03451492380374291
+      },
+      {
+        "n": 10000,
+        "x": 0,
+        "exact": 0.3951244285562417,
+        "limit": 0.36787944117144233,
+        "difference": 0.027244987384799357
+      },
+      {
+        "n": 10000,
+        "x": 1,
+        "exact": 0.6992946372100953,
+        "limit": 0.6922006275553464,
+        "difference": 0.007094009654748934
+      },
+      {
+        "n": 10000,
+        "x": 2,
+        "exact": 0.8769600410201925,
+        "limit": 0.8734230184931167,
+        "difference": 0.0035370225270758837
+      },
+      {
+        "n": 100000000,
+        "x": -1,
+        "exact": 0.08757318206953543,
+        "limit": 0.06598803584531254,
+        "difference": 0.02158514622422289
+      },
+      {
+        "n": 100000000,
+        "x": 0,
+        "exact": 0.38707076187363076,
+        "limit": 0.36787944117144233,
+        "difference": 0.01919132070218843
+      },
+      {
+        "n": 100000000,
+        "x": 1,
+        "exact": 0.6972424762671823,
+        "limit": 0.6922006275553464,
+        "difference": 0.0050418487118358835
+      },
+      {
+        "n": 100000000,
+        "x": 2,
+        "exact": 0.8749711703975367,
+        "limit": 0.8734230184931167,
+        "difference": 0.0015481519044200365
+      }
+    ],
+    "context_correlation_counterexample": {
+      "n": 10,
+      "r": 25,
+      "nominal_coverage": 0.95,
+      "actual_coverage": 0.0001898734426963934,
+      "model": "Independent rows; all errors within each row equal one standard normal"
+    }
+  },
+  "limits": "Checks illustrate formulas, not asymptotic proof or prospective market calibration"
+}

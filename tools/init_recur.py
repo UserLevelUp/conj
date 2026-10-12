@@ -40,6 +40,7 @@ trigger_keywords = "register(,registerrule,register,routing pattern,*."
         'main.conjectures.analysis':('Recover the four review gates and candidate review contract','main.conjectures.analysis.current.md'),
         'main.conjectures.discovery':('Review N01 and N02 as preliminary, unverified leads','main.conjectures.discovery.current.md'),
         'main.conjectures.publication':('Explore the public atlas, reproduction commands, and contribution guide','README.md'),
+        'main.conjectures.c15':('Read the proved fully observed subset and distinguish its conditional application from full unresolved C15','main.conjectures.analysis.c15.subset.complete.md'),
     }
     for lane,ids in [('boolean','C01-C04'),('spectral','C05-C10'),('witness','C11-C14'),('education','C15'),('additive','C16-C20'),('order','C21-C25')]:
         lanes['main.conjectures.'+lane]=(f'Recover {ids} from the statement index and review notebook','main.conjectures.index.current.md')

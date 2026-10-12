@@ -27,6 +27,11 @@ def main():
     manifest=json.loads((ROOT/'assets/manifest.json').read_text())
     for path,sha in manifest['source_sha256'].items():
         assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha, f'Stale atlas input: {path}'
+    subset=json.loads((ROOT/'assets/c15-subset.manifest.json').read_text())
+    for group in ('source_sha256','artifact_sha256'):
+        for path,sha in subset[group].items():
+            assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha, f'Stale C15 figure: {path}'
+    ET.parse(ROOT/'assets/c15-subset.svg')
     broken=[]; checked=0
     for path in ROOT.rglob('*.md'):
         if set(path.relative_to(ROOT).parts)&EXCLUDED: continue
@@ -40,7 +45,7 @@ def main():
             checked+=1
             if not (path.parent/target).exists(): broken.append(f'{path.relative_to(ROOT)} -> {target}')
     assert not broken, '\n'.join(broken)
-    print(f'PASS: 25 candidates, six priority cards, 25 PNG/SVG pairs, fresh atlas provenance, {checked} local links.')
+    print(f'PASS: 25 candidates, six priority cards, atlas and C15 subset provenance, {checked} local links.')
 
 
 if __name__=='__main__': main()

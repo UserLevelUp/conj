@@ -1,0 +1,12 @@
+{
+  "method": "Analytic formulas, no random data",
+  "matplotlib": "3.11.2",
+  "source_sha256": {
+    "tools/build_c15_figure.py": "7614cca57f3a622cef525413a8fe7939a89529aca013d02c3669ae3a59621d3f",
+    "tools/c15_bounds.py": "88382000dde1e95546bbed9d5f3e7635b34b60d982b8c73f87ebd76f89562e0d"
+  },
+  "artifact_sha256": {
+    "assets/c15-subset.png": "badd628fadb9d4042420e4f23de41510b1c23487ad928a37fbfeb468ca4bf5df",
+    "assets/c15-subset.svg": "073cfebe72290952992e260c8eafee51f308e10a57b03be10591e0da16e85c0a"
+  }
+}

@@ -4,6 +4,9 @@
 completed C01 implication review are recorded in
 `main.conjectures.analysis.notes.current.md`; 24 specialist reviews remain
 unresolved. This is not an executed or accepted Warp.
+The restricted C15 proof is now in
+`main.conjectures.analysis.c15.subset.complete.md`; this does not complete the
+full C15 review or change the count of unresolved original claims.
 **Recommended Warp ID:** `main.conjectures.analysis`.
 **Goal:** give each of C01-C25 an evidence-bound mathematical review and
 integrate its disposition without confusing review completion with proof.

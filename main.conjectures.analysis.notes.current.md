@@ -44,6 +44,40 @@ workflow; there is no separately registered canvas skill in this project.
 The write-page guidance is used for clear notebook prose while retaining
 the established local-file format.
 
+## C15 subset review — version 0.2.0
+
+The [public paper](main.conjectures.analysis.c15.subset.complete.md) supplies a
+complete proof of C15 with full observation, including exact simultaneous
+intervals and the Gumbel limit. An explicitly separate oracle result assumes
+the nuisance matrix is known under missingness. These are standard
+consequences; full C15 remains unresolved and the portfolio counts do not change.
+
+For hypothetical decisions, the paper requires both positive expected return
+after costs and a bounded probability of endpoint loss. A simultaneous
+historical confidence statement is insufficient on its own: a prospective
+mean-transfer bound and a conditional tail model are additional hypotheses.
+The note proves the resulting sufficient rule, handles repeated inspection
+through error allocation, and distinguishes inference error from future loss.
+Its identical-history/opposite-future construction explains the need for those
+extra hypotheses. No actual investment window has been validated.
+
+Well-posedness is checked with an admissible rank-two C15 sequence. Falsification
+checks expose failures caused by missing contexts and correlated errors.
+Primary-source comparisons cover Xia–Yuan's individual-linear-form theorem
+and Howard et al.'s time-uniform inference framework. The linked paper records
+the limits of the econometric connection and the incomplete novelty review.
+The [numerical record](docs/c15-checks.json) binds source hashes; its deterministic
+checks and analytic figure illustrate the proof, not market performance.
+
+Next: establish the unknown-nuisance remainder required by full C15; separately
+assess whether any empirical application supports prospective calibration.
+
+publish: main.conjectures.notes.c15.subset proved restricted case and unresolved transfer
+consumer: main.conjectures.analysis.c15.subset
+consumer: main.conjectures.category.topic.statistics
+consumer: main.conjectures.category.kind.proof
+consumer: main.conjectures.category.status.implied
+
 ## Assessment of research interest
 
 Follow-up assessment on 2026-10-12: **six original candidates are a practical
@@ -637,9 +671,11 @@ publish: main.conjectures.category.topic.boolean Boolean functions and percolati
 publish: main.conjectures.category.topic.spectral random matrices and random graphs
 publish: main.conjectures.category.topic.witness matching topology and cover witnesses
 publish: main.conjectures.category.topic.education hypothetical statistical measurement
+publish: main.conjectures.category.topic.statistics simultaneous inference and conditional prediction
 publish: main.conjectures.category.topic.additive random additive combinatorics
 publish: main.conjectures.category.topic.order permutations and partial orders
 publish: main.conjectures.category.kind.analytic mathematical derivations
+publish: main.conjectures.category.kind.proof complete argument for its explicitly stated scope
 publish: main.conjectures.category.kind.computational executed bounded computations
 publish: main.conjectures.category.kind.literature primary-source comparisons
 publish: main.conjectures.category.kind.counterexample explicit disproof examples
