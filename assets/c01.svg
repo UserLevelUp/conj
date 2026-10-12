@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="475.2pt" viewBox="0 0 864 475.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:description>Schematic proof chain; the theorem implication is established in the linked review.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 475.2
+L 864 475.2
+L 864 0
+L 0 0
+z
+" style="fill: #101724"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 80.136 298.188
+L 289.44 298.188
+L 289.44 170.1216
+L 80.136 170.1216
+z
+" clip-path="url(#p1c43d6adc8)" style="fill: #182337; stroke: #63e6c5; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 296.577719 239.976
+Q 311.104485 239.976 324.513217 239.976
+" clip-path="url(#p1c43d6adc8)" style="fill: none; stroke: #ffca7a; stroke-linecap: round"/>
+    <path d="M 316.513217 235.976
+L 324.513217 239.976
+L 316.513217 243.976
+" clip-path="url(#p1c43d6adc8)" style="fill: none; stroke: #ffca7a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 329.832 298.188
+L 539.136 298.188
+L 539.136 170.1216
+L 329.832 170.1216
+z
+" clip-path="url(#p1c43d6adc8)" style="fill: #182337; stroke: #63e6c5; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 546.273719 239.976
+Q 560.800485 239.976 574.209217 239.976
+" clip-path="url(#p1c43d6adc8)" style="fill: none; stroke: #ffca7a; stroke-linecap: round"/>
+    <path d="M 566.209217 235.976
+L 574.209217 239.976
+L 566.209217 243.976
+" clip-path="url(#p1c43d6adc8)" style="fill: none; stroke: #ffca7a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 579.528 298.188
+L 788.832 298.188
+L 788.832 170.1216
+L 579.528 170.1216
+z
+" clip-path="url(#p1c43d6adc8)" style="fill: #182337; stroke: #63e6c5; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #63e6c5" x="184.4208" y="200.39184" transform="rotate(-0 184.4208 200.39184)">FEW QUERIES</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7" transform="translate(132.925566 238.848628)">Exact algorithm</text>
+    <!-- with cost $R_0$ -->
+    <g style="fill: #edf4f7" transform="translate(145.4208 262.56144)">
+     <text>
+      <tspan x="0" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">w</tspan>
+      <tspan x="10.632324" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">i</tspan>
+      <tspan x="14.244141" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">t</tspan>
+      <tspan x="19.341309" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">h</tspan>
+      <tspan x="27.580566" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7"> </tspan>
+      <tspan x="31.712891" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">c</tspan>
+      <tspan x="38.860352" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">o</tspan>
+      <tspan x="46.813965" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">s</tspan>
+      <tspan x="53.586914" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">t</tspan>
+      <tspan x="58.684082" y="-0.125" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7"> </tspan>
+      <tspan x="62.816406" y="-0.125" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">R</tspan>
+      <tspan x="71.849121" y="1.824994" style="font-size: 9.1px; font-family: 'DejaVu Sans'; fill: #edf4f7">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #63e6c5" x="434.1168" y="200.39184" transform="rotate(-0 434.1168 200.39184)">LITTLE LEVEL-ONE MASS</text>
+   </g>
+   <g id="text_4">
+    <!-- $\sum I_i^2 \leq 2\tau\sqrt{R_0}$ -->
+    <g style="fill: #edf4f7" transform="translate(392.7118 251.90144)">
+     <text>
+      <tspan x="0" y="-0.676244" style="font-size: 13px; font-family: 'DejaVu Sans Display'; fill: #edf4f7">∑</tspan>
+      <tspan x="12.384277" y="-0.676244" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">I</tspan>
+      <tspan x="47.505531" y="-0.676244" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">τ</tspan>
+      <tspan x="65.892143" y="-0.703125" style="font-style: oblique; font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">R</tspan>
+      <tspan x="17.131361" y="-6.363744" style="font-size: 9.1px; font-family: 'DejaVu Sans'; fill: #edf4f7">2</tspan>
+      <tspan x="74.924857" y="1.246869" style="font-size: 9.1px; font-family: 'DejaVu Sans'; fill: #edf4f7">0</tspan>
+      <tspan x="16.218262" y="3.798756" style="font-style: oblique; font-size: 9.1px; font-family: 'DejaVu Sans'; fill: #edf4f7">i</tspan>
+      <tspan x="25.809242" y="-0.676244" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">≤</tspan>
+      <tspan x="39.234535" y="-0.676244" style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7">2</tspan>
+      <tspan x="55.332191" y="-1.095" style="font-size: 8.465231px; font-family: 'STIXSizeOneSym'; fill: #edf4f7">√</tspan>
+     </text>
+     <rect x="64.267143" y="-15.1875" width="18.427881" height="0.8125"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #63e6c5" x="683.8128" y="200.39184" transform="rotate(-0 683.8128 200.39184)">NOISE SENSITIVITY</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7" transform="translate(641.724284 240.108003)">BKS criterion</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; fill: #edf4f7" transform="translate(618.222722 263.508003)">correlation vanishes</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #acbcd0" x="436.32" y="342.42912" transform="rotate(-0 436.32 342.42912)">An honest outcome: a candidate becomes a worked theorem consequence.</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #63e6c5" x="56.16" y="38.016" transform="rotate(-0 56.16 38.016)">C01  /  BOOLEAN ANALYSIS</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #edf4f7" x="56.16" y="76.032" transform="rotate(-0 56.16 76.032)">When few queries erase memory</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #ffca7a" x="807.84" y="37.0656" transform="rotate(-0 807.84 37.0656)">KNOWN CONSEQUENCE</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #acbcd0" x="56.16" y="444.312" transform="rotate(-0 56.16 444.312)">Schematic proof chain; the theorem implication is established in the linked review.</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #acbcd0" x="807.84" y="463.32" transform="rotate(-0 807.84 463.32)">CONJ  /  A PUBLIC MATHEMATICAL NOTEBOOK</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1c43d6adc8">
+   <rect x="69.12" y="123.552" width="734.4" height="232.848"/>
+  </clipPath>
+ </defs>
+</svg>

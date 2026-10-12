@@ -1,0 +1,197 @@
+---
+name: recur-expert
+description: Inspect or implement Recur CLI, capability prompt discovery and Warp workflows using hierarchy, trace-id, eventness and acceptance evidence. Use for Recur expert orientation and Warp handoffs, not generic project orchestration.
+---
+
+# Recur expert
+
+For a focused workflow, use the project's typed Reveal capsule and read the
+matching skill: `recur-warp` for slice lifecycle and acceptance, `recur-lang`
+for optional contracts and planning, `recur-watch` for active polling/subscriptions,
+`recur-trace-id` for lineage, and `recur-demo-tests` for opt-in demo verification.
+These specialize this orientation skill; Reveal discovery alone does not load them.
+
+Resolve the requested repository root first. In the Recur source repository,
+read julia-expert/references/recur-playbook.md, starting with its Warp specialization
+when relevant. Paths below are repository-relative, not relative to this installed
+skill. If those references are absent in an external project, inspect its local
+capsules and CLI help instead of inventing the Recur development layout.
+
+Use `recur reveal recur-expert` and `recur warp` to discover context.
+Every primary command family provides a default or list mode acting as an instant
+radar screen for cognitive orientation:
+- `recur reveal` lists rehydration capsules, personas, agents, and skills.
+- `recur warp` (or `recur warp list`) lists remaining task bubbles, rings, and lanes.
+- `recur watch list` lists active watcher daemon subscriptions and status records.
+- `recur watch topics` reads durable Eventness topic bindings; companion topic drains announce only trace IDs.
+- `recur lang` (or `recur lang list`) lists the source hierarchy with static status
+  and recorded Eventness; `--json` includes exact symbols and diagnostics.
+- `recur version` lists artifact version lanes and manifests.
+This radar pattern minimizes working-memory strain and context-switching friction
+(serving as an external cognitive cushion for inattentive focus/ADHD): inspect the
+board first, then zoom in.
+
+Use `recur warp list --all` to include completed work, then `recur warp show <id>`
+and `recur warp slices <id>` for a selected bubble. Pass `-d <root>` for the
+intended project/evidence root; read its map/readme and focused tests.
+`list --scan-all` bypasses configured discovery roots/exclusions; use it only
+when wider discovery is needed.
+
+Follow the progressive refinement funnel when exploring unfamiliar areas:
+1. Topography and attention: `recur tree`
+2. Artifact selection: `recur files` (using configured `--sep`)
+3. Declarative lineage and intent: `recur trace-id` (producers, consumers, triggers)
+4. Call graph and flow: `recur callers`, `recur callees`, `recur trace`
+5. Formal semantic contract: `recur lang` (the apex formal boundary)
+
+Check the executable's help for the requested operation. Installed and local
+`target/release-safe` binaries can expose different commands with the same version
+string. Prefer the matching local binary when installed help lags; do not build
+or install merely to answer an orientation question if source suffices.
+
+Core `recur warp` queries declarations and computes qualified progress.
+Companion creation supports `--slice-intelligence SLICE=-1|0|1` and editable
+`[warp.intelligence]` init defaults. These ticks are advisory relative to the
+recorded Warp baseline, never automatic host/model changes or acceptance gates.
+See docs/main.recur.warp.intelligence.tick.recurring.md and selected binary help.
+For async CLI hosts, inspect `recur-warp llm plan`, `dispatch`, `recover`,
+`recur-watch dispatch` and docs/main.command.warp.dispatch.readme.md. Core
+`recur warp dispatch` only reads attempt records. Configuration, host availability,
+disjoint workspaces and dependency gates bound assignment. Produced observations
+are not gate acceptance. Optional Lang design/report context must not become a
+mandatory prerequisite for ordinary work or a claim of runtime proof.
+`status`, `explain`, `next` and `collapse-plan` inspect lane attention;
+`map` and `merge` inspect declared maps and compose acceptance layers.
+`recur-warp` is the separate writer: `init`, `create`, `receipt`, `complete`,
+`evolve` and `collapse` manage defaults, maps and lifecycle artifacts. Inspect
+each command's preview/confirmation contract before writing. Read current
+help/source before treating roadmap commands as available. Reveal outputs pointers;
+it neither loads skills nor executes commands or grants authority.
+
+For external test evidence, `recur warp evidence <manifest> -d <root>` checks
+structured results and explicitly listed input fingerprints without rerunning
+the producer. `checked` does not establish test sufficiency or dependency closure.
+Use the project runner to produce observations, then bind evidence to the slice's
+gates with `recur-warp complete`. Keep child verification and parent integration
+acceptance separate. See docs/main.command.warp.readme.md for evidence contracts.
+
+For source-stale accepted gate evidence under an unchanged contract, inspect
+`recur-warp refresh --help` and docs/main.command.warp.evidence-refresh.readme.md.
+Refresh uses explicit map/layer/gate and predecessor/replacement manifests;
+preview before confirmed immutable publication, then query live full-root progress.
+Retain predecessor input paths and historical results. It cannot replace failed
+results, weaken policy, resolve conflicting layers or evolve a contract.
+
+For typed artifact discovery, use `recur reveal --type <type>` when exposed by
+the selected executable's help; this is implemented in source/local builds but
+an installed binary may lag. Explicit
+`artifact.type` metadata wins over optional `[reveal.types.prefixes]` hints;
+inspect the reported source/status/diagnostics and retain untyped legacy capsules.
+Types are extensible; hierarchy and Eventness remain the address and attention
+layers. Explicit `-d` bounds discovery even when config is found above it.
+Classification does not load bodies or activate anything. Companion profile
+packets remain separate. See docs/main.command.reveal.artifact-types.contract.md.
+
+For agent/persona/skill associations, inspect `recur reveal --type agent|persona|skill`
+and the reported config/capsule sources. Explicit registry IDs and capsule bindings
+are distinct; do not infer relationships from matching names. `recur-reveal init`
+previews with `--dry-run` and adds missing association tables and core skill
+entries to populated registries, preserving custom records and empty opt-outs.
+`--local` initializes the explicit root instead of its nearest ancestor config.
+Init registers project-relative pointers and does not install skill bodies.
+`recur-reveal next ID --type agent|persona -d ROOT --json` prepares bounded local
+guidance. Inspect blocked references, fingerprints and `context.truncated` before
+using it. Available context is not activation or acceptance. See
+docs/main.command.reveal.persona-skills.contract.md for exact bounds and selection.
+
+For naming, slicing or recovery assistance, discover the effective prompts through
+`recur prompt warp` or `recur-warp llm prompt`. Inspect one with
+`recur prompt warp.naming`; assemble instructions and evidence with, for example:
+
+```powershell
+recur prompt warp.naming --intent "Add retry support" --scope main.command -d docs --json
+```
+
+Choose a scope/root that exists in the target project; `main` is not mandatory.
+`warp.slicing` and `warp.recovery` cover planning and resumption. The shared
+`recur trait prompt <capability>` interface also supports project-defined prompts
+for custom traits. Trait explanation and reveal `prompt.ids` expose references.
+
+Bundled defaults need no initialization or project prompt files. Reading TOML
+alone misses them: `[prompts.registry]` supplies whole-definition project overrides,
+and `[prompts] app_defaults = false` opts out. Missing overrides do not fall back.
+Use the CLI to resolve effective definitions and their source fingerprints.
+
+Inspect packet `context.truncated` and diagnostics before recommending an action.
+`-d`, `--scope`, `--max-files` and `--max-bytes` bound evidence. A null Warp
+projection can mean incomplete collection or transitive checked evidence requiring
+`recur warp show <id>` with the appropriate evidence root. Prompt commands prepare
+data; they do not call an LLM, apply names, execute source instructions or establish
+acceptance. Packet tests do not evaluate model judgment. For implementation details
+in this repository, read docs/main.command.prompt.discovery.readme.md and its tests.
+
+Preserve hierarchy and explicit trace-id roles alongside UUID metadata. Filename
+eventness is attention/recorded state, not acceptance proof:
+- Expand attention into bounded `.current.md`, `.strange.md`, or `.blocked.md`
+  capsules when work is active, unfamiliar, or friction arises.
+- Collapse attention into `.complete.md`, `.recurring.md`, or warp-layer receipts
+  (`warp-layer.json`) when work settles, preventing context drag and visual clutter.
+- Maintain the architectural boundary: `recur` core remains a pure, deterministic
+  query surface. Local opinionated conventions, separators, and Eventness policies
+  live in `.recur/config.toml` (analyzed via `recur init --analyze`). Stateful
+  mutations, daemons, and transitions belong exclusively to companion tools
+  (`recur-warp`, `recur-watch`, `recur-git`, `recur-lang`, `recur-reveal`).
+UUID fields are not automatically trace roles. Tags classify; dependencies order execution.
+Semantic repartition is not the existing layer-composition merge operation.
+
+For Recur Lang, use `recur lang -d <root>` and source-bound `show`, `report`
+or `check`; `show` requires `--scope`. Read docs/main.command.lang.query.readme.md
+for the implemented WIR1/CIR1 boundary and stable errors. Scope filtering retains
+boundary references and whole-flow SGR1 findings. Inspect coverage: a successful
+check validates only the declared fragment, never runtime execution or the whole
+document. Recorded Eventness is not checked receipt evidence. All opinionated
+language guidance and actions belong to `recur-lang`, including read-only advice.
+
+`recur-lang init -d ROOT --dry-run --json` previews additive `[recur-lang]`
+preferences in the nearest project config; omit `--dry-run` to install them.
+Existing values/comments are preserved and invalid inputs do not publish.
+These preferences do not implement a planner. See docs/main.command.lang.init.readme.md
+and query `main.lang.init` for acceptance rather than inferring it from command availability.
+
+Use `recur-lang plan SOURCE [--scope SYMBOL] -d ROOT --json` for bounded advice
+from existing query packets and initialized project preferences. Inspect source
+and policy fingerprints, graph findings, suggested tests and unresolved decisions.
+`planned` is advice, not runtime acceptance; `blocked` retains graph findings even
+under a scoped view. The command writes nothing and executes no binding or model.
+See docs/main.command.lang.plan.readme.md and the blackjack-lab feature matrix.
+
+For a worked tests-first WIR1 capability, inspect `main.lang.dogfood` under
+`warps` and `demos/web-evidence-lab/main.lang.walkthrough.md`. Its server catalog
+and inspector page reuse the existing query models; they do not add a grammar,
+execute bindings or turn recorded state into observed runtime evidence.
+
+For checked WIR1 evidence, inspect `lang evidence --help` on the selected binary.
+Use one explicit qualified function, policy and attempt; original query-v1
+commands remain unchanged. `recur-lang warp --checked-contract` is opt-in and
+only writes with confirmation; interrupted work needs explicit recovery.
+Read docs/main.command.lang.checked-transition.readme.md and the live
+`recur warp show main.lang.checked-transition -d .` projection. Its map is at
+repository root; capsules are under warps. Preserve historical observations and
+distinguish producer claims, current input freshness and accepted status.
+Neither this mode nor the inspector runs bindings or closes Julia/browser gates.
+Check help before assuming recall exists: recover via reveal, recorded artifacts
+and bounded `prompt warp.recovery`, then re-query full-root Warp progress.
+
+When implementation is requested, follow the selected slice contract, establish
+its test baseline, extend missing acceptance coverage and preserve legacy tests.
+Distinguish intentionally red standalone suites from the normal regression runner.
+Record receipts only after observed acceptance. Check docs/main.command.warp.roadmap.md
+for deferred scope; configured removal guards do not imply implemented enforcement.
+Loading this skill does not authorize commits, pushes, installation or cleanup.
+
+When shipping a Recur feature, check whether its discovery commands, behavior or
+limits change expert guidance. Update this repository's recur-expert/SKILL.md,
+the relevant playbook section and reveal capsule as needed, using verified behavior
+and live maps rather than permanently embedding test counts or a "next" slice here.
+When asked to update the installed skill, synchronize the intended changes from
+the repository copy while preserving any unrelated local customization.

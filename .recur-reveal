@@ -1,0 +1,55 @@
+# .recur-reveal
+
+Purpose: describe the project-level reveal capability and current portfolio.
+
+Public edition: start at `README.md` or `docs/atlas/README.md` for the
+illustrated collection. On a fresh clone, `python tools/init_recur.py`
+creates local discovery lanes without overwriting existing context.
+Private `.recur/` state is not published.
+
+What it offers today:
+
+- `recur reveal` lists capsules and `recur reveal <lane>` prints one.
+- Reveal rehydrates recorded context; it does not execute instructions or prove
+  claims.
+- The 25-candidate alignment portfolio is indexed at
+  `main.conjectures.index.current.md`; its local capsule is
+  `.recur/main.conjectures.recur.md`.
+- Candidates use `main.conjectures.cNN.<topic>.current.md`.
+- `recur reveal --type lane` lists the parent, six domain lanes, and the
+  analysis lane for the next recommended Warp.
+- `recur reveal main.conjectures.<lane>` recovers the relevant review agenda.
+- Alignment is domain-relative and explicitly normalized; misalignment is the
+  named comparison's residual, not a universal score.
+
+Eventness:
+
+- `.current` means the candidate is under active review.
+- C01 has a completed implication review using existing theorems. The other
+  24 original claims remain unresolved; novelty is unverified.
+- Use `recur tree main`, `recur files "main.conjectures.**"`,
+  `recur find "candidate conjecture" --scope "main.conjectures.**"` and
+  `recur trace-id` to rediscover the recorded hierarchy and links.
+
+Current boundary:
+
+- Recur output is a discovery aid; mathematical reality needs proof, disproof,
+  and literature work.
+- The portfolio must explicitly distinguish formal claims, rationale,
+  established neighboring results, and unperformed checks.
+- Actual calculations and finite observations are in
+  `main.conjectures.evidence.current.md` and `main.conjectures.checks.json`;
+  the reproducible producer is `main.conjectures.sanity.py`.
+- `main.conjectures.analysis.current.md` defines the recommended 25-slice
+  review contract; `recur reveal main.conjectures.analysis` recovers it.
+- `recur reveal conjecture-analysis` resolves the project-local review skill
+  at `conjecture-analysis\SKILL.md`; explicitly read it after revealing.
+- `recur reveal main.conjectures.notes` recovers the project-local Editor
+  notebook. The former session notebook is preserved in its historical appendix;
+  reveal does not automatically load the body.
+- `recur reveal main.conjectures.discovery` recovers two new additive research
+  leads, separate from the original 25 slots.
+
+defines: main.conjectures.portfolio 25 advanced candidate mathematical statements
+defines: main.conjectures.eventness project attention markers are not truth claims
+publish: main.conjectures.index discoverable entry point and review policy

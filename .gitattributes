@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve source bytes: the evidence manifests bind to their SHA-256 hashes.
+main.conjectures.c*.md -text
+main.conjectures.sanity.py -text
+main.conjectures.analysis.experiments.py -text
+main.conjectures.analysis.observations.json -text
+*.png binary
+*.svg text eol=lf

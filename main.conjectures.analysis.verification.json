@@ -1,0 +1,29 @@
+{
+  "exact_projection": {
+    "subsets": 128,
+    "q": "1/4",
+    "L": 6,
+    "coefficients": [
+      "-9143/4096",
+      "-8119/4096",
+      "-6903/4096",
+      "-5955/4096",
+      "-2295/4096",
+      "-1575/4096",
+      "-675/4096"
+    ],
+    "passed": true
+  },
+  "freshness": {
+    "main.conjectures.checks.json": {
+      "fingerprints": 26,
+      "mismatches": []
+    },
+    "main.conjectures.analysis.observations.json": {
+      "fingerprints": 26,
+      "mismatches": []
+    }
+  },
+  "historical_notebook_sha256": "fbaf96689b613a8aa3f66caa30d9c981581e8972f53fc13c134e68c0ea07ba85",
+  "producer_sha256": "0692d371b0194faa0ead8201fb350eeb72eefa7d125730b5b9b1d51d62fb789f"
+}

@@ -1,0 +1,112 @@
+{
+  "seed_base": 20261012,
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "source_sha256": {
+    "tools/build_atlas.py": "c9964cba5cd255e483a8e8cd33c5add8c825e6f6a5340e73be430c32cb584d85",
+    "tools/catalog.json": "af0137a651fc4237eb518c7c1f586d4cdbc23391284f7fef411f9adcada92546",
+    "main.conjectures.analysis.observations.json": "27f36ff8a2c8b938c28e75cd0fa5251ad3df89343f9f46a3dcedcf42daac062e"
+  },
+  "figures": {
+    "C01": {
+      "kind": "illustration / analytic construction",
+      "caption": "Schematic proof chain; the theorem implication is established in the linked review."
+    },
+    "C02": {
+      "kind": "illustration / analytic construction",
+      "caption": "Toy triangular-lattice crossing with its shortest open path; not a scaling experiment."
+    },
+    "C03": {
+      "kind": "illustration / analytic construction",
+      "caption": "Illustrative covariance 0.2(1+t)^(-2/3); its compensated curve is not percolation data."
+    },
+    "C04": {
+      "kind": "illustration / analytic construction",
+      "caption": "Logistic toy profile and its derivatives; not the conjectured percolation profile."
+    },
+    "C05": {
+      "kind": "illustration / analytic construction",
+      "caption": "Top eigenvalue and derivative of one small toy matrix under a rank-one spike; not a universality test."
+    },
+    "C06": {
+      "kind": "illustration / analytic construction",
+      "caption": "Rotating unit vectors and their exact squared overlaps; a geometric schematic, not OU simulation."
+    },
+    "C07": {
+      "kind": "illustration / analytic construction",
+      "caption": "A small regular graph, its vertex-thinned induced graph, and the actual normalized toy spectrum; no Tracy–Widom fit."
+    },
+    "C08": {
+      "kind": "illustration / analytic construction",
+      "caption": "A schematic two-neighbor activation cascade on a grid; not the random regular ensemble."
+    },
+    "C09": {
+      "kind": "illustration / analytic construction",
+      "caption": "One graph, a highlighted spanning tree, and a short cycle; no entropy distribution is measured."
+    },
+    "C10": {
+      "kind": "illustration / analytic construction",
+      "caption": "Two independent synthetic normal samples illustrate the proposed product law; not graph observations."
+    },
+    "C11": {
+      "kind": "illustration / analytic construction",
+      "caption": "A toy hypergraph timeline aligns two proposed hitting times; schematic only."
+    },
+    "C12": {
+      "kind": "illustration / analytic construction",
+      "caption": "An unfilled and filled triangular cycle illustrate a homological obstruction; not a hitting-time experiment."
+    },
+    "C13": {
+      "kind": "illustration / analytic construction",
+      "caption": "Constructed order-seven cyclic square: one deletion per row, column, and symbol, with a surviving transversal. Not a random-square test."
+    },
+    "C14": {
+      "kind": "illustration / analytic construction",
+      "caption": "Bipartite walk and two illustrative last-visit clocks; no cover-time data."
+    },
+    "C15": {
+      "kind": "illustration / analytic construction",
+      "caption": "Synthetic low-rank matrix with missing entries plus the proposed Gumbel CDF; no fitted estimator or empirical validation."
+    },
+    "C16": {
+      "kind": "illustration / analytic construction",
+      "caption": "One toy sparse set and its exact sumset holes; not evidence of a limiting law."
+    },
+    "C17": {
+      "kind": "recorded finite data",
+      "caption": "Recorded finite simulations: full-deficit scaled sample variances and projection residual variances. The dashed 8 is the conjectured limit."
+    },
+    "C18": {
+      "kind": "illustration / analytic construction",
+      "caption": "Exact representation counts and energy for a toy subset of the field with 17 elements; not a local-limit test."
+    },
+    "C19": {
+      "kind": "illustration / analytic construction",
+      "caption": "Exact first arrival positions for differences in one toy cyclic insertion order; no Poisson fit."
+    },
+    "C20": {
+      "kind": "illustration / analytic construction",
+      "caption": "Exact autocorrelation at unoriented shifts of one fixed-size toy set in a prime cyclic group."
+    },
+    "C21": {
+      "kind": "illustration / analytic construction",
+      "caption": "A fixed permutation with peaks marked and one 132 witness highlighted; no asymptotic data."
+    },
+    "C22": {
+      "kind": "illustration / analytic construction",
+      "caption": "Exact descent positions before and after a fixed sparse reshuffle of one toy permutation."
+    },
+    "C23": {
+      "kind": "illustration / analytic construction",
+      "caption": "A toy planar point order and its exact number of compatible total orders."
+    },
+    "C24": {
+      "kind": "recorded finite data",
+      "caption": "Recorded scaled spectral gaps. At n=10, six of 24 samples exceeded the extension cap and are absent."
+    },
+    "C25": {
+      "kind": "illustration / analytic construction",
+      "caption": "Analytic lower and upper bounds from the statement; the region between them is not an estimated limit."
+    }
+  }
+}

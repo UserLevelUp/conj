@@ -1,0 +1,793 @@
+{
+  "seed": 20260701,
+  "scope": "finite sanity checks, not proofs",
+  "C01": [
+    {
+      "k": 3,
+      "m": 5,
+      "covariance_epsilon_half": 0.07024283615405125
+    },
+    {
+      "k": 5,
+      "m": 22,
+      "covariance_epsilon_half": 0.0401547883714406
+    },
+    {
+      "k": 8,
+      "m": 177,
+      "covariance_epsilon_half": 0.017344755254893318
+    },
+    {
+      "k": 12,
+      "m": 2839,
+      "covariance_epsilon_half": 0.005508416154919066
+    }
+  ],
+  "C02": {
+    "geometric_bounds": "order n <= shortest crossing <= order n^2"
+  },
+  "C03": {
+    "majority_three_covariance_at_zero": 0.25,
+    "laplace_weights": [
+      0.1875,
+      0.0625
+    ]
+  },
+  "C04": {
+    "ratios": [
+      {
+        "n": 201,
+        "slope_ratio_at_one_window": 0.13397287403357525
+      },
+      {
+        "n": 10001,
+        "slope_ratio_at_one_window": 0.13530821257078396
+      },
+      {
+        "n": 100001,
+        "slope_ratio_at_one_window": 0.1353325764948329
+      }
+    ],
+    "limit": 0.1353352832366127
+  },
+  "C05": {
+    "finite_difference": 0.8368017654802883,
+    "scaled_overlap": 0.8368017653218904
+  },
+  "C06": {
+    "fidelity": [
+      [
+        1.0000000000000004,
+        0.4829000380910005,
+        0.4791376831603897
+      ],
+      [
+        0.4829000380910005,
+        1.0000000000000009,
+        0.9669199649113813
+      ],
+      [
+        0.4791376831603897,
+        0.9669199649113813,
+        1.0000000000000049
+      ]
+    ]
+  },
+  "C07": {
+    "degrees": [
+      2.0,
+      3.0,
+      2.0,
+      3.0,
+      2.0
+    ],
+    "eigenvalues": [
+      -0.8333333333333335,
+      -0.49999999999999994,
+      -6.018642899418191e-17,
+      0.33333333333333337,
+      1.0
+    ],
+    "completion_check": {
+      "n": 6,
+      "regular_degree": 2,
+      "retained_set": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "regular_graphs": 70,
+      "admissible_labeled_degree_classes": 23,
+      "all_completion_multiplicities_equal_within_class": true,
+      "purpose": "reject tautological conditional-reference claim, not verify Tracy-Widom"
+    }
+  },
+  "C08": [
+    {
+      "r": 2,
+      "d": 10,
+      "x": 0.01,
+      "p": 0.005
+    },
+    {
+      "r": 3,
+      "d": 10,
+      "x": 0.044721359549995794,
+      "p": 0.029814239699997195
+    },
+    {
+      "r": 4,
+      "d": 10,
+      "x": 0.08434326653017493,
+      "p": 0.0632574498976312
+    }
+  ],
+  "C09": {
+    "K4_spanning_trees": 16
+  },
+  "C10": {
+    "d3_path_counts_t1_to_t4": [
+      3,
+      6,
+      12,
+      24
+    ]
+  },
+  "C11": {
+    "n12_weighted_vertex_degrees": [
+      "215/4",
+      "225/4"
+    ]
+  },
+  "C12": {
+    "n12_weighted_edge_degrees": [
+      "10",
+      "19/2",
+      "21/2"
+    ]
+  },
+  "C13": {
+    "3": 3,
+    "4": 0
+  },
+  "C14": {
+    "K33_directed_arcs": 18,
+    "stationary_column_sums": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "C15": {
+    "row_mean_max_error": 2.220446049250313e-16,
+    "tangent_projection_error": 1.0348572009409036e-16,
+    "functional_norm_squared": 0.0625,
+    "k_equals_n_regret": 0
+  },
+  "C16": {
+    "m": 7,
+    "q": "1/4",
+    "exact_expected_deficit": "165861/16384",
+    "all_single_sum_probabilities_match": true
+  },
+  "C17": {
+    "experiments": [
+      {
+        "q": 0.2,
+        "m": 3000,
+        "repetitions": 600,
+        "exact_mean": 87.99999999999993,
+        "sample_mean": 88.23333333333333,
+        "q_cubed_sample_variance": 6.513460211463552
+      },
+      {
+        "q": 0.15,
+        "m": 3000,
+        "repetitions": 600,
+        "exact_mean": 162.44444444444446,
+        "sample_mean": 162.545,
+        "q_cubed_sample_variance": 6.332597494782972
+      },
+      {
+        "q": 0.1,
+        "m": 3000,
+        "repetitions": 600,
+        "exact_mean": 377.999892494395,
+        "sample_mean": 377.62666666666667,
+        "q_cubed_sample_variance": 6.851603294379522
+      },
+      {
+        "q": 0.05,
+        "m": 20000,
+        "repetitions": 600,
+        "exact_mean": 1557.999999979049,
+        "sample_mean": 1555.3416666666667,
+        "q_cubed_sample_variance": 7.739231836046191
+      },
+      {
+        "q": 0.025,
+        "m": 80000,
+        "repetitions": 600,
+        "exact_mean": 6317.99999991306,
+        "sample_mean": 6345.638333333333,
+        "q_cubed_sample_variance": 7.494894055674389
+      }
+    ],
+    "proposed_variance_limit": 8
+  },
+  "C18": {
+    "p": 11,
+    "size": 5,
+    "subsets": 462,
+    "mean": "215/3",
+    "variance": "1760/63",
+    "lattice_span": 4
+  },
+  "C19": {
+    "p": 7,
+    "q": "1/3",
+    "cycle_independent_sets_by_size": {
+      "0": 1,
+      "1": 7,
+      "2": 14,
+      "3": 7
+    },
+    "exact_absence_probability": "1136/2187",
+    "unoriented_classes": 3
+  },
+  "C20": {
+    "exact_mean": "2",
+    "exact_variance": "2/3",
+    "formula_matches_all_462_subsets": true
+  },
+  "C21": {
+    "4": {
+      "0": {
+        "count": 8,
+        "mean": "0"
+      },
+      "1": {
+        "count": 16,
+        "mean": "1"
+      }
+    },
+    "6": {
+      "0": {
+        "count": 32,
+        "mean": "0"
+      },
+      "1": {
+        "count": 416,
+        "mean": "40/13"
+      },
+      "2": {
+        "count": 272,
+        "mean": "70/17"
+      }
+    },
+    "8": {
+      "0": {
+        "count": 128,
+        "mean": "0"
+      },
+      "1": {
+        "count": 7680,
+        "mean": "112/15"
+      },
+      "2": {
+        "count": 24576,
+        "mean": "917/96"
+      },
+      "3": {
+        "count": 7936,
+        "mean": "329/31"
+      }
+    }
+  },
+  "C22": {
+    "exact_single_site_variance": "1/3",
+    "n": 2000,
+    "m": 100,
+    "repetitions": 800,
+    "empirical_covariance": [
+      [
+        0.08180225281601995,
+        0.08190237797246559,
+        0.08151439299123904
+      ],
+      [
+        0.08190237797246559,
+        0.16415519399249073,
+        0.16402878598247814
+      ],
+      [
+        0.08151439299123904,
+        0.16402878598247814,
+        0.3260449937421777
+      ]
+    ],
+    "proposed_covariance": [
+      [
+        0.08333333333333333,
+        0.08333333333333333,
+        0.08333333333333333
+      ],
+      [
+        0.08333333333333333,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      [
+        0.08333333333333333,
+        0.16666666666666666,
+        0.3333333333333333
+      ]
+    ]
+  },
+  "C23": {
+    "planar_examples": [
+      {
+        "permutation": [
+          3,
+          1,
+          2,
+          4,
+          0,
+          6,
+          5,
+          7
+        ],
+        "extensions": 30,
+        "width": 3,
+        "height": 5,
+        "layer_lower": 12
+      },
+      {
+        "permutation": [
+          5,
+          7,
+          0,
+          6,
+          3,
+          4,
+          2,
+          1
+        ],
+        "extensions": 1260,
+        "width": 5,
+        "height": 3,
+        "layer_lower": 240
+      },
+      {
+        "permutation": [
+          5,
+          6,
+          3,
+          2,
+          4,
+          0,
+          7,
+          1
+        ],
+        "extensions": 540,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 144
+      },
+      {
+        "permutation": [
+          4,
+          1,
+          7,
+          3,
+          5,
+          2,
+          6,
+          0
+        ],
+        "extensions": 384,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 36
+      },
+      {
+        "permutation": [
+          5,
+          4,
+          2,
+          3,
+          6,
+          7,
+          0,
+          1
+        ],
+        "extensions": 336,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 48
+      },
+      {
+        "permutation": [
+          2,
+          6,
+          1,
+          5,
+          4,
+          0,
+          7,
+          3
+        ],
+        "extensions": 330,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 144
+      },
+      {
+        "permutation": [
+          7,
+          1,
+          4,
+          0,
+          3,
+          5,
+          2,
+          6
+        ],
+        "extensions": 152,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 36
+      },
+      {
+        "permutation": [
+          5,
+          4,
+          0,
+          1,
+          3,
+          7,
+          6,
+          2
+        ],
+        "extensions": 200,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 24
+      },
+      {
+        "permutation": [
+          1,
+          0,
+          5,
+          7,
+          6,
+          4,
+          2,
+          3
+        ],
+        "extensions": 240,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 72
+      },
+      {
+        "permutation": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          3,
+          1,
+          5
+        ],
+        "extensions": 47,
+        "width": 3,
+        "height": 5,
+        "layer_lower": 8
+      },
+      {
+        "permutation": [
+          7,
+          4,
+          0,
+          2,
+          3,
+          6,
+          5,
+          1
+        ],
+        "extensions": 368,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 24
+      },
+      {
+        "permutation": [
+          3,
+          4,
+          1,
+          2,
+          0,
+          6,
+          7,
+          5
+        ],
+        "extensions": 90,
+        "width": 3,
+        "height": 4,
+        "layer_lower": 24
+      },
+      {
+        "permutation": [
+          0,
+          2,
+          5,
+          6,
+          4,
+          3,
+          7,
+          1
+        ],
+        "extensions": 84,
+        "width": 4,
+        "height": 5,
+        "layer_lower": 12
+      },
+      {
+        "permutation": [
+          2,
+          6,
+          7,
+          4,
+          1,
+          3,
+          5,
+          0
+        ],
+        "extensions": 520,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 72
+      },
+      {
+        "permutation": [
+          1,
+          6,
+          5,
+          7,
+          3,
+          4,
+          0,
+          2
+        ],
+        "extensions": 540,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 96
+      },
+      {
+        "permutation": [
+          3,
+          4,
+          1,
+          6,
+          2,
+          0,
+          7,
+          5
+        ],
+        "extensions": 138,
+        "width": 3,
+        "height": 4,
+        "layer_lower": 24
+      },
+      {
+        "permutation": [
+          0,
+          3,
+          5,
+          7,
+          1,
+          6,
+          4,
+          2
+        ],
+        "extensions": 118,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 24
+      },
+      {
+        "permutation": [
+          2,
+          1,
+          5,
+          4,
+          3,
+          6,
+          7,
+          0
+        ],
+        "extensions": 96,
+        "width": 4,
+        "height": 4,
+        "layer_lower": 36
+      },
+      {
+        "permutation": [
+          6,
+          7,
+          1,
+          2,
+          0,
+          3,
+          4,
+          5
+        ],
+        "extensions": 84,
+        "width": 3,
+        "height": 5,
+        "layer_lower": 12
+      },
+      {
+        "permutation": [
+          7,
+          3,
+          4,
+          6,
+          5,
+          0,
+          1,
+          2
+        ],
+        "extensions": 560,
+        "width": 4,
+        "height": 3,
+        "layer_lower": 72
+      }
+    ],
+    "rejected_width_bound": [
+      {
+        "n": 20,
+        "normalized_log_extensions": -2.240511644900215
+      },
+      {
+        "n": 100,
+        "normalized_log_extensions": -3.1203925164703614
+      },
+      {
+        "n": 1000,
+        "normalized_log_extensions": -4.296424820521981
+      }
+    ]
+  },
+  "C24": [
+    {
+      "n": 4,
+      "states": 6,
+      "gap": 0.09763107293781748,
+      "n_cubed_gap": 6.2483886680203184
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "gap": 0.026794919243112503,
+      "n_cubed_gap": 5.787702556512301
+    },
+    {
+      "n": 8,
+      "states": 70,
+      "gap": 0.01087435249838764,
+      "n_cubed_gap": 5.567668479174472
+    },
+    {
+      "n": 10,
+      "states": 252,
+      "gap": 0.005438164856094496,
+      "n_cubed_gap": 5.438164856094496
+    }
+  ],
+  "C25": {
+    "bounds": [
+      {
+        "alpha": 0.5,
+        "lower": 1.1246702892376166,
+        "upper": 1.6931471805599454
+      },
+      {
+        "alpha": 1,
+        "lower": 1.3862943611198906,
+        "upper": 2.0
+      },
+      {
+        "alpha": 1.5,
+        "lower": 1.1246702892376166,
+        "upper": 1.7836046756755068
+      },
+      {
+        "alpha": 1.9,
+        "lower": 0.39703048669174534,
+        "upper": 1.3609552325449001
+      }
+    ],
+    "n6_increasing_triples_mean": "10/3",
+    "all_720_LIS_witness_bounds_checked": true
+  },
+  "checked_candidate_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25"
+  ],
+  "assertions_passed": true,
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.5.3"
+  },
+  "source_sha256": {
+    "main.conjectures.sanity.py": "a52597705a3e7c5f441d99b32fcd764c120fa823f116ff657eaac0afafbda7cc",
+    "main.conjectures.c01.revealment-pivotal-clusters.current.md": "022a5ff668655fea8913b0b718fb1a20df19f4fdbe53aa2506ae2a8eb4485f0f",
+    "main.conjectures.c02.certificate-dispersion-threshold-width.current.md": "a875963011dc443b5b963c0ef86f973687c132571faecaca4226b7e59ccd47d4",
+    "main.conjectures.c03.noise-stability-certificates.current.md": "d233424772c3cd225b4756138b5fad2bdbe7c1c11e2888d5645cf58c33f3702e",
+    "main.conjectures.c04.product-threshold-curvature.current.md": "0ffdb56ef4c1df6996d6a9cab8a73552afe1749b67eec1c7ffa9660fdcf97b49",
+    "main.conjectures.c05.composition-critical-window.current.md": "125eefb14e3fd14bdf106fa4be2c67b1ed08aceb1bc27ad5d0de5240d84a0989",
+    "main.conjectures.c06.spectral-resilience.current.md": "a9d4be348cdb339d866d056b168a777fb2acf968e9e7aea83b09f728875dc5f8",
+    "main.conjectures.c07.vertex-deletion-expansion.current.md": "7e47073980b32cf51be51a150beb3dc6dd0c70bc57d2d97d5b02a2739b869f06",
+    "main.conjectures.c08.bootstrap-nonbacktracking.current.md": "c33e5403c5443badb4317b39d77fff7323bc596861b0f4c6105952085ac07767",
+    "main.conjectures.c09.local-trees-spanning-trees.current.md": "dad6b3e99f6d91785afe51ae715968dfca4c0abd60e631390617853657631c1a",
+    "main.conjectures.c10.expansion-diameter.current.md": "24a3fc674b29cb78c14d5cd96bd85082daa5237c3c65b528cd3b1b682ba7235e",
+    "main.conjectures.c11.hypergraph-matching-window.current.md": "620be2510fb2e880c4bc00fc40c3dc51441f069e514484d7c79f91bf1f470fa7",
+    "main.conjectures.c12.isolated-faces-homology.current.md": "23fdd2a697255baca5c9b6a50bd4e42e6ef89cd626b46b2f7f4a431a6aec62ed",
+    "main.conjectures.c13.codegree-matching-resilience.current.md": "aa5ff83a12b41e2945cb71314add933a776b6e93b0fdb5e76a03c5a636f1076d",
+    "main.conjectures.c14.neighborhood-cover-connectivity.current.md": "5f271389c5a9dc215d950f4e7db15f9504d5b1ead37f2a4be4a4feda159a9830",
+    "main.conjectures.c15.education-attention-alignment.current.md": "1b1ac8175dc1d3c2406ea1b7687fa4970d8025e50c2d347d5c1ffbc8d4fc537c",
+    "main.conjectures.c16.energy-popular-sums.current.md": "cb52a5ea59ce62566d433d12bfec9316da2a0b09c6a69ea2e7943ebfcc2c1d98",
+    "main.conjectures.c17.thinning-near-minimal-sumsets.current.md": "34ecee9d7c111c8f8a9ddb7902cb1303ca929195af54e9a1a32f9dc53622f484",
+    "main.conjectures.c18.energy-progression-witness.current.md": "216346d23d4228f2ee8870a24976f485b5478c7aa57a353efe0a79520bd58854",
+    "main.conjectures.c19.cyclic-difference-coverage.current.md": "b6895a83ed1ef2b5a2b2499fef5c2b1231dff4a6a51727395f38d201cb1ba549",
+    "main.conjectures.c20.fourier-popular-differences.current.md": "1e5835dc77af52716bcfcdae21d0974307efceeac8700f198b5014feca98460f",
+    "main.conjectures.c21.peaks-pattern-emergence.current.md": "73b805290d25c334af154b4388b1f2f9c063a619bdf52bd5eca37cad8a3d916a",
+    "main.conjectures.c22.resampling-descents.current.md": "f36e5bc04ec536ac073c10a00e597ca95b4be3239ccd89a2f8b0ea0da7646a28",
+    "main.conjectures.c23.poset-width-extension-entropy.current.md": "0a32363b84e77898674aed7a2862238de0aa7485e12f24283e195760c57d1f1f",
+    "main.conjectures.c24.poset-connectivity-certificates.current.md": "b6abf98a9a0aa3f9effc2aa20bb22e4f4500a8e5d521842130d2cc62f487e2e9",
+    "main.conjectures.c25.pattern-containment-revealment.current.md": "a18c262ce7e1a0387726a8c59d33a95e107e35856854be970a907aa4a26a514f"
+  }
+}
